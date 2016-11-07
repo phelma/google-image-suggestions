@@ -10,5 +10,9 @@
   },
   "bin": {
     "google-image-suggest": "./cli.js"
-  }
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ]
 }
