@@ -23,7 +23,7 @@ suggestions.get('fish', (err, res) => {
 ```
 
 cli 
-`./cli.js fish`
+`google-image-suggest fish`
 
 ```
 Suggestions:
