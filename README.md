@@ -1,6 +1,7 @@
-google image search suggestions
+# Google Image Suggestions
+Fetches the google image search suggestions as text
 
-![](screenshot.jpg)
+![Screenshot](https://github.com/phelma/google-image-suggestions/raw/master/screenshot.jpg)
 
 usage
 
