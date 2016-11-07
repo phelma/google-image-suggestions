@@ -1,8 +1,10 @@
 google image search suggestions
 
+![](screenshot.jpg)
+
 usage
 
-```
+```js
 let suggestions = require('google-image-suggestions');
 suggestions.get('fish', (err, res) => {
   console.log(JSON.stringres);
@@ -22,8 +24,9 @@ suggestions.get('fish', (err, res) => {
 
 ```
 
-cli 
-`google-image-suggest fish`
+cli
+
+`$ google-image-suggest fish`
 
 ```
 Suggestions:
