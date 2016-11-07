@@ -1,0 +1,11 @@
+{
+  "name": "google-image-suggestions",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "cheerio": "^0.22.0",
+    "request": "^2.78.0"
+  }
+}
