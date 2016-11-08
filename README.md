@@ -8,7 +8,7 @@ usage
 ```js
 let suggestions = require('google-image-suggestions');
 suggestions.get('fish', (err, res) => {
-  console.log(JSON.stringres);
+  console.log(res);
 });
 
 // {
