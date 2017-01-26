@@ -7,7 +7,7 @@ let suggestions = require('./index');
 
 let term = process.argv[2] || 'cat';
 
-suggestions.get(term, function(err, res) {
+suggestions.getNew(term, function(err, res) {
   if (!res.suggestions){
     console.log(chalk.red('\nNo suggestions found for ') + chalk.yellow(term) + '\n');
   } else {
@@ -15,7 +15,8 @@ suggestions.get(term, function(err, res) {
     res.list.forEach((suggestion) => {
       let str = suggestion.full.replace(suggestion.extra, chalk.green(suggestion.extra));
       console.log('\t' + str);
-    })
+    });
     console.log();
   }
-})
+});
+
